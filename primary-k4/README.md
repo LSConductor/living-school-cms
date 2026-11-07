@@ -4,8 +4,9 @@ Static reference for the Living School public site (WordPress / Bricks), paralle
 
 | File | Use |
 | --- | --- |
-| `index.html` + `primary.css` | Full Primary curriculum page — local preview or Bricks HTML paste |
-| `photos/` | Web-optimised Primary photographs (upload to WP Media Library before Bricks) |
+| `bricks-drop-in.html` | **Paste this into Bricks** — inline CSS + live Media Library `src`s |
+| `index.html` + `primary.css` | Same page with absolute Media URLs (local preview / reference) |
+| `photos/` | Web-optimised copies (optional; live site uses Media Library URLs) |
 | `homepage-primary-card.html` | Homepage “Three campuses” Primary card with program + prospectus CTAs |
 
 ## Brand alignment (vs Middle School)
@@ -21,20 +22,18 @@ Matched to `middle-school-catalyst-program` computed tokens:
 
 Earlier portal-teal draft was replaced — it did not match living.school marketing pages.
 
-## Image map
+## Image map (live Media Library)
 
-| File | Role on page |
+| Role | Live URL |
 | --- | --- |
-| `classroom-wondering.jpg` | **Hero** (full-bleed) |
-| `classroom-mentors.jpg` | Classroom literacy / inquiry |
-| `stage-performance.jpg` | Performing arts |
-| `lake-excursion.jpg` | Outdoors / Thriver expedition |
-| `surf-lesson.jpg` | Beach / PDHPE |
-| `sand-collaboration.jpg` | Beach collaboration |
-| `garden-foraging.jpg` | Kitchen Garden / farm |
-| `mantis-discovery.jpg` | Phenomena / noticing |
-| `garlic-harvest.jpg` | Harvest |
-| `welcome-produce.jpg` | Garden produce |
+| Hero | `…/2026/11/classroom_wondering.jpg` |
+| Mentors | `…/2026/11/classroom_mentors.jpg` |
+| Stage | `…/2026/11/stage_performance.jpg` |
+| Outdoors · Flatrock | `…/2026/11/Flatrock-platform_students.jpg` |
+| Lake | `…/2026/11/IMG_6775.jpeg` |
+| Surf / sand | `…/2026/11/surf_lesson.jpg` · `sand_collaboration.jpg` |
+| Garden foraging | `…/2023/11/0ADE6952-476F-4DB5-BFAC-B8EEE34C80C3.jpg` |
+| Mantis / harvest | `…/2026/11/GardenImage.jpg` · `JabayGardenBounty-scaled.jpg` · `JabayKitchenGardenProduce.jpg` |
 
 ## URLs
 
@@ -51,8 +50,6 @@ python3 -m http.server 8765 --bind 127.0.0.1
 # open http://127.0.0.1:8765/
 ```
 
-## WP Media Library (John)
+## Bricks paste
 
-Upload every file in `photos/` to living.school Media Library, then swap `src="photos/…"` paths in Bricks to the Media URLs. Keep filenames for easy matching.
-
-Publish steps: project store `docs/primary-k4-prospectus-curriculum.md`.
+Use `bricks-drop-in.html` (also mirrored in Project store `docs/uploads/primary-k4-prospectus-curriculum/`). All `src`s are live. See `docs/primary-k4-prospectus-curriculum.md`.
