@@ -40,7 +40,7 @@ Earlier portal-teal draft was replaced — it did not match living.school market
 | Role | URL |
 | --- | --- |
 | Proposed page slug | `https://living.school/primary-k4-belonging-program/` |
-| Prospectus PDF | `https://living.school/wp-content/uploads/2026/Prospectus/2026.primary-k4-curriculum.pdf` |
+| Prospectus PDF | `https://living.school/wp-content/uploads/2026/11/2026.sm_.primary-k4-full-booklet.pdf` |
 
 ## Local preview
 
