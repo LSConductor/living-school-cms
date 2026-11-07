@@ -9,6 +9,11 @@ This CMS is built using Strapi v4 and will integrate with:
 - Assessment and reflection systems
 - Parent reporting tools
 
+## Public curriculum packs (static)
+
+- `magazine/` — read-only Learning Neighbourhoods magazine for families
+- `primary-k4/` — Primary K–4 Belonging curriculum page + homepage prospectus card (Bricks publish pack; see folder README)
+
 ## 🛠 Developing Locally
 
 To start your Strapi application with autoReload enabled:

@@ -1,0 +1,50 @@
+<!--
+  Living School homepage · “Three campuses, one philosophy”
+  Replace the Conway Street Primary card so prospectus + curriculum page
+  are as discoverable as Middle School’s “Middle School program →”.
+
+  Target slug after Bricks publish:
+  https://living.school/primary-k4-belonging-program/
+
+  Prospectus (also for enrolment emails):
+  https://living.school/wp-content/uploads/2026/Prospectus/2026.primary-k4-curriculum.pdf
+-->
+
+<article class="ls-campus-card ls-campus-card--primary">
+  <h3>Conway Street Primary · “The Heart”</h3>
+  <p>
+    Kindergarten to Year 4: a warm, wonder-filled home. Literacy and numeracy with joy;
+    minimal screens in early years so imagination leads.
+  </p>
+  <p class="ls-campus-card__actions">
+    <a class="ls-campus-card__link" href="https://living.school/primary-k4-belonging-program/">
+      Primary program →
+    </a>
+    <a
+      class="ls-campus-card__link ls-campus-card__link--prospectus"
+      href="https://living.school/wp-content/uploads/2026/Prospectus/2026.primary-k4-curriculum.pdf"
+      target="_blank"
+      rel="noopener"
+    >
+      Read K–4 prospectus
+    </a>
+  </p>
+</article>
+
+<!--
+  Bricks paste notes (minimal CSS if the Middle School card already has a link style):
+
+  .ls-campus-card__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 0.85rem;
+  }
+  .ls-campus-card__link {
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .ls-campus-card__link--prospectus {
+    /* Keep equal visual weight to the program link — prospectus must not hide as fine print */
+  }
+-->
